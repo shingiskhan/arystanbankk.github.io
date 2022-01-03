@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arystan Bank</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Montserrat:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="#" class="header__logo">Arystan Bank</a>
+            <ul class="header__list">
+                <li class="header__item">
+                    <a href="index.html" class="header__link header__link_active">Главное</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">Кредиты</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">Invest</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">Депозиты</a>
+                </li>
+                <li class="header__item">
+                    <a href="transfer.html" class="header__link">Переводы</a>
+                </li>
+            </ul>
+            <button class="header__button">Вход</button>
+        </header>
+        <div class="slider">
+            <section class="first-screen">
+                <div class="first-screen__left">
+                    <img src="img/mastercard.png" alt="">
+                </div>
+                <div class="first-screen__right">
+                    <h1 class="first-screen__title">Arystan Bank - все просто!</h1>
+                    <p class="first-screen__description">Оформи карту Arystan и получай высокие бонусы</p>
+                    <button class="first-screen__btn">Оформить</button>
+                </div>
+            </section>
+            <section class="first-screen">
+                <div class="first-screen__left">
+                    <img src="img/toncon.png" alt="">
+                </div>
+                <div class="first-screen__right">
+                    <h1 class="first-screen__title">Toncon - техника по приемлимым ценам</h1>
+                    <p class="first-screen__description">Оформи рассрочку с картой Arystan Сard на 24 месяца</p>
+                    <button class="first-screen__btn">
+                        <a href="#">Перейти</a>
+                    </button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.slider').slick({
+            autoplay: true,
+            autoplaySpeed: 3000
+        })
+    </script>
+</body>
+</html>
